@@ -11,3 +11,9 @@ pinecone
 sentence-transformers
 beautifulsoup4
 python-dotenv
+jinja2
+uvicorn[standard]
+python-multipart
+pydantic-settings
+pypdf
+python-docx

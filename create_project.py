@@ -26,6 +26,6 @@ for folder in folders:
     (root / folder).mkdir(parents=True, exist_ok=True)
 
 for file in files:
-    (root/folder).touch(exist_ok=True)
+    (root / file).touch(exist_ok=True)
 
 print("project structure created!")
